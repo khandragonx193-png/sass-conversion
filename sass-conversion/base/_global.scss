@@ -1,0 +1,13 @@
+// ============================================
+// GLOBAL / BASE STYLES
+// ============================================
+
+@use '../abstracts/variables' as *;
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  background: $background-color;
+  margin: 0;
+  padding: 0;
+}

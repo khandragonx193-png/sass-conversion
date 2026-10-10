@@ -1,0 +1,10 @@
+// ============================================
+// COMPONENTS - BUTTONS
+// ============================================
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.button {
+  @include button-style($primary-color);
+}

@@ -1,0 +1,12 @@
+// ============================================
+// COMPONENTS - CARDS
+// ============================================
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.card {
+  border: 1px solid $border-color;
+  padding: $padding-md;
+  @include box-shadow;
+}
